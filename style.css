@@ -50,27 +50,18 @@ div{
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 
     /* Decor */
     background-color: white;
 }
 
-#answer, #submit{
-    align-items: flex-end;
-    margin: 20px;
-    border: none;
-    border-radius: 90px;
+#flashcard p, h3{
+    color: black;
+    background-color: white;
 }
 
-#answer{
-    width: 30%;
-    height: 10%;
-}
-
-#submit{
-    width: 100px;
-    height: 100px;
-    background-color: #A71D31
+h3{
+    font-size: 30px;
 }
