@@ -15,9 +15,15 @@ let questionNum = 0;
 
 // Question Objects
 const currentEventQuestions = [
-    [`What day did Russian troops invade Ukraine? Enter in month, day, year`, `February, 24, 2022`],
+    [`What day did Russian troops invade Ukraine?`, `February, 24, 2022`],
     [`In January of 2023, South Carolina attorney, Alex Murdaugh, was found guilty of murder, on how many counts?`, `2`],
-    [`On June 24, 2022, an infamous United State Supreme Court case was repealed, causing protest and outrage across the US. What was the case?`, `Roe v Wade`]
+    [`On June 24, 2022, an infamous United State Supreme Court case was repealed, causing protest and outrage across the US. What was the case?`, `Roe v Wade`],
+    [`Who did Forbes name the youngest "self-made billionaire ever" in 2019?`, `Kylie Jenner`],
+    [`Which actor voiced both Darth Vader and The Lion King's Mufasa?`, `James Earl Jones`],
+    [`What is the name of Michelle Obama's 2018 memoir?`, `Becoming`],
+    [`Which Avenger other than Captain America was able to pick up Thor's Mjolnir in the Marvel movies?`, `Vision`],
+    [`Who wrote the Twilight books?`, `Stephenie Meyer`],
+    [`What is Kramer's first name on Seinfeld?`, `Cosmo`]
 ];
 
 const skillsInfoQuestions = [
@@ -29,7 +35,8 @@ const skillsInfoQuestions = [
 const mathQuestions = [
     [`Add the figures: 85, 24, 56, 28`, '193'],
     [`What is the slope of the line y = 3/2x + 4`, `3/2`],
-    [`What are the zeros of the equation: (3x - 2)(5x + 6)`, `2/3, -6/5`]
+    [`What are the zeros of the equation: (3x - 2)(5x + 6)`, `2/3, -6/5`],
+    [`Simplify: (4 – 5) – (13 – 18 + 2)`, `2`]
 ]
 
 // Function
